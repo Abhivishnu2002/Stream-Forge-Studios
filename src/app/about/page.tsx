@@ -5,10 +5,10 @@ import Image from "next/image";
 import { motion, useScroll, useTransform } from "framer-motion";
 
 const ABOUT_PARA_1 =
-  "Stream Forge Studios is a California-based creative studio and production house. Moving between commercial directing, choreography, short-form reels, and live stream entertainment, bringing a distinct visual signature to each one, with world-building at the heart of our work.";
+  "Stream Forge Studios is a Bangalore-based creative powerhouse. We engineer high-octane live streams to international platforms, mentor the next generation through our content creation academy, and shape rising talents into magnetic digital idols.";
 
 const ABOUT_PARA_2 =
-  "Rooted in world-building and kinetic movement, our productions create atmospheres that feel lived-in and emotionally grounded. We collaborate with leading brands, artists, and creators, bringing the same care to story, choreography, and image in commercial projects.";
+  "Driven by broadcast engineering excellence and star-making artist development, our studio delivers seamless multi-platform streaming, intensive creator workshops, and complete idol incubation. We empower creators to command global stages and connect with passionate audiences worldwide.";
 
 function ScrollWord({
   word,
@@ -79,7 +79,7 @@ export default function AboutPage() {
         {/* Top Statement */}
         <div>
           <p className="font-mono text-xs uppercase tracking-[0.2em] text-zinc-500 mb-8">
-            ABOUT ME
+            ABOUT STREAM FORGE
           </p>
           <ScrollParagraph text={ABOUT_PARA_1} />
         </div>

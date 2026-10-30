@@ -43,7 +43,7 @@ export const metadata: Metadata = {
         url: SITE_METADATA.ogImage,
         width: 1200,
         height: 630,
-        alt: `${SITE_METADATA.name} - Cinematic Video & Dance Studio`,
+        alt: `${SITE_METADATA.name} - International Live Streams, Creator Academy & Idol Shaping`,
       },
     ],
   },

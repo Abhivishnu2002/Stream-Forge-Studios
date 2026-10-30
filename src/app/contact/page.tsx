@@ -29,13 +29,13 @@ export default function ContactPage() {
           transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
         >
           <h1 className="text-4xl sm:text-6xl md:text-7xl lg:text-[84px] font-normal tracking-tight text-white leading-[1.05] uppercase">
-            GOT A VISION? WE&apos;VE GOT<br />
-            CAFFEINE AND EMOTIONAL<br />
-            AVAILABILITY.
+            READY TO GO LIVE, LEARN,<br />
+            OR SHAPE AN IDOL?<br />
+            LET&apos;S TALK.
           </h1>
         </motion.div>
 
-        {/* EMAIL ME */}
+        {/* EMAIL US */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
@@ -43,7 +43,7 @@ export default function ContactPage() {
           className="border-t border-white/10 pt-10"
         >
           <p className="font-mono text-xs uppercase tracking-[0.2em] text-zinc-500 mb-4">
-            EMAIL ME
+            EMAIL US
           </p>
           <a
             href={`mailto:${SITE_METADATA.contact.email}`}
@@ -53,7 +53,7 @@ export default function ContactPage() {
           </a>
         </motion.div>
 
-        {/* CALL ME */}
+        {/* CALL US */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
@@ -61,7 +61,7 @@ export default function ContactPage() {
           className="border-t border-white/10 pt-10"
         >
           <p className="font-mono text-xs uppercase tracking-[0.2em] text-zinc-500 mb-4">
-            CALL ME
+            CALL US
           </p>
           <a
             href={`tel:${SITE_METADATA.contact.phone.replace(/[^0-9+]/g, "")}`}

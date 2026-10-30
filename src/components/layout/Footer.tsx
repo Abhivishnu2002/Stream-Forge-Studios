@@ -13,7 +13,7 @@ export default function Footer() {
       try {
         const now = new Date();
         const formatted = new Intl.DateTimeFormat("en-US", {
-          timeZone: "America/Los_Angeles",
+          timeZone: SITE_METADATA.timezone,
           hour: "2-digit",
           minute: "2-digit",
           second: "2-digit",
@@ -128,13 +128,13 @@ export default function Footer() {
               STREAM FORGE STUDIOS
             </p>
             <h4 className="text-2xl md:text-3xl font-normal tracking-tight text-white leading-tight">
-              DIRECTOR
+              LIVE STREAMS •
             </h4>
             <h3 className="text-2xl md:text-3xl font-normal tracking-tight text-white leading-tight mt-1">
-              FILMS • COMMERCIALS •
+              CREATOR ACADEMY •
             </h3>
             <h3 className="text-2xl md:text-3xl font-normal tracking-tight text-white leading-tight">
-              NARRATIVE
+              SHAPING IDOLS
             </h3>
           </div>
         </div>
@@ -143,7 +143,7 @@ export default function Footer() {
         <div className="mt-20 flex flex-col md:flex-row items-start md:items-center justify-between font-mono text-xs uppercase tracking-wider text-zinc-400 gap-6">
           <div>
             <div className="text-white text-sm">{timeString || "14:15:54"}</div>
-            <div className="text-zinc-500 mt-0.5">CALIFORNIA, USA</div>
+            <div className="text-zinc-500 mt-0.5">{SITE_METADATA.location}</div>
           </div>
 
           <div className="flex items-center gap-8">

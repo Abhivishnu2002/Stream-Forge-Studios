@@ -17,9 +17,9 @@ export default function WorksPage() {
             transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
             className="text-5xl sm:text-7xl md:text-8xl lg:text-9xl font-normal tracking-tight text-white leading-[0.95]"
           >
-            WE LISTEN.<br />
-            WE CRAFT.<br />
-            WE DELIVER.
+            BROADCAST LIVE.<br />
+            TEACH CREATORS.<br />
+            SHAPE THE IDOLS.
           </motion.h1>
         </div>
 

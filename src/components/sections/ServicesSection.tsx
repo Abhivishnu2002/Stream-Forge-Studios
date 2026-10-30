@@ -26,7 +26,7 @@ export default function ServicesSection() {
           transition={{ duration: 0.7 }}
           className="max-w-4xl text-2xl font-light leading-snug tracking-tight text-white sm:text-4xl md:text-5xl"
         >
-          From script to final master, we handle every frame. We offer comprehensive production services tailored to your project&apos;s scale.
+          From global multi-platform broadcasting to creator academies and idol talent incubation, we power the complete digital entertainment ecosystem.
         </motion.h2>
 
         {/* Services List Rows */}

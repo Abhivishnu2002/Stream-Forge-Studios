@@ -15,7 +15,7 @@ export default function ProcessSection() {
           viewport={{ once: true }}
           className="mb-8 font-mono text-xs uppercase tracking-[0.2em] text-zinc-400"
         >
-          WHY CHOOSE US
+          OUR PILLARS
         </motion.p>
 
         {/* Big H3 Statement */}
@@ -26,7 +26,7 @@ export default function ProcessSection() {
           transition={{ duration: 0.7 }}
           className="max-w-4xl text-2xl font-light leading-snug tracking-tight text-white sm:text-4xl md:text-5xl"
         >
-          We don&apos;t just shoot video. We craft cinematic experiences that elevate your brand and captivate your audience.
+          We don&apos;t just broadcast. We stream to premier international platforms, teach next-level content creation, and shape the idols of tomorrow.
         </motion.h2>
 
         {/* 4 Steps Row / Grid */}

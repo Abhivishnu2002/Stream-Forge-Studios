@@ -43,7 +43,7 @@ export default function HeroSection() {
         <div className="grid grid-cols-1 md:grid-cols-12 items-start gap-4">
           <div className="md:col-span-8 lg:col-span-9">
             <BlurText
-              text="FILMS • COMMERCIALS •"
+              text="LIVE STREAMS • CREATOR LAB •"
               as="h1"
               delay={0.1}
               stagger={0.06}
@@ -51,7 +51,7 @@ export default function HeroSection() {
             />
             <div className="mt-1">
               <BlurText
-                text="NARRATIVE"
+                text="SHAPING IDOLS"
                 as="h1"
                 delay={0.3}
                 stagger={0.06}

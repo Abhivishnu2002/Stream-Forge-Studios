@@ -29,13 +29,13 @@ export default function Header() {
     setMobileMenuOpen(false);
   }
 
-  // Live Studio Clock (California / Los Angeles Time)
+  // Live Studio Clock (Bangalore / India Time)
   useEffect(() => {
     const updateTime = () => {
       try {
         const now = new Date();
         const formatted = new Intl.DateTimeFormat("en-US", {
-          timeZone: "America/Los_Angeles",
+          timeZone: SITE_METADATA.timezone,
           hour: "2-digit",
           minute: "2-digit",
           second: "2-digit",
@@ -187,7 +187,7 @@ export default function Header() {
               <div className="flex items-center justify-between font-mono text-xs text-zinc-400">
                 <span>{SITE_METADATA.location}</span>
                 <span className="text-zinc-300">
-                  {timeString || "02:04:01"} PST
+                  {timeString || "02:04:01"} IST
                 </span>
               </div>
             </div>

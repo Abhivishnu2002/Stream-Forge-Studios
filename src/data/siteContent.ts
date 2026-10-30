@@ -37,19 +37,19 @@ export interface FaqItem {
 
 export const SITE_METADATA = {
   name: "Stream Forge Studios",
-  tagline: "Director Cinematographer",
+  tagline: "Live Streams • Content Creation • Shaping Idols",
   description:
-    "A cinematic multi-page portfolio crafted for high-performance visual storytelling. Built to showcase motion, atmosphere, and precision through immersive layouts, refined typography, and a dark, minimal visual system.",
+    "Stream Forge Studios is a Bangalore-based creative powerhouse delivering high-performance live streams to international platforms, teaching elite content creation, and shaping tomorrow's digital idols.",
   url: "https://streamforgestudios.com",
   ogImage: "/images/og-image.jpg",
-  location: "CALIFORNIA, USA",
-  timezone: "America/Los_Angeles",
-  established: "EST 2K18",
+  location: "BANGALORE INDIA",
+  timezone: "Asia/Kolkata",
+  established: "EST 2K26",
   contact: {
-    email: "hi@streamforgestudios.com",
-    inquiries: "hi@streamforgestudios.com",
-    phone: "+1 (231) 879 0811",
-    address: "California, United States",
+    email: "info@streamforgestudios.com",
+    inquiries: "info@streamforgestudios.com",
+    phone: "+91 9180147107",
+    address: "Bangalore, India",
   },
   socials: [
     { name: "Instagram", url: "#", handle: "@streamforgestudios" },
@@ -66,23 +66,23 @@ export const NAVIGATION_LINKS = [
 ];
 
 export const HERO_CONTENT = {
-  eyebrow: "DIRECTOR",
-  headlineWords: ["FILMS", "•", "COMMERCIALS", "•", "NARRATIVE"],
+  eyebrow: "STREAM FORGE STUDIOS",
+  headlineWords: ["LIVE STREAMS", "•", "CREATOR LAB", "•", "SHAPING IDOLS"],
   subline:
-    "Filmmaker and Director Creating Cinematic Stories for Brands and Artists",
+    "Broadcasting live to premier international platforms, teaching elite content creation, and shaping next-generation idols.",
   ctaText: "View our work",
   ctaSecondary: "Get in touch",
   videoUrl: "/videos/OkFJ1jaWFt0bE4PnFt7S2IOvA.mp4",
   videoPoster: "/images/pbMbyMBRvjkhCG0yBQuKLkbW2OA.avif",
-  badgeText: "[EST 2K18]",
+  badgeText: "[EST 2K26]",
 };
 
 export const ABOUT_CONTENT = {
-  badge: "Behind the work",
+  badge: "About Stream Forge",
   headline:
-    "Stream Forge Studios is a California-based cinematography and directing studio. Working as cinematographer, director, or in a combined role depending on the project, bringing a distinct visual signature to each one, with story-building at the heart of the work.",
+    "Stream Forge Studios is a Bangalore-based creative powerhouse producing high-impact live streams to international platforms, teaching modern content creation, and shaping tomorrow's digital idols.",
   extendedBio:
-    "Moving between directing and cinematography, sometimes in a hybrid role, bringing a strong visual signature to our work. Rooted in world-building, our films create atmospheres that feel lived-in and emotionally grounded. Collaborating with brands such as The North Face, Jordan, UFC, Black Diamond, and SAQ, bringing the same care to story and image in commercial projects.",
+    "From multi-camera, low-latency broadcasting across Twitch, YouTube Live, and international platforms, to intensive hands-on creator masterclasses and full-spectrum idol incubation, we bridge engineering precision with charismatic star power. We empower creators to dominate global algorithms and craft magnetic idol personas that captivate worldwide fandoms.",
   btsRollLabel: "ROLL // 04.2",
   btsImages: [
     "/images/6ySR7v9DPy8ERkSdr1favg4bCaY.avif",
@@ -92,10 +92,10 @@ export const ABOUT_CONTENT = {
 };
 
 export const STICKY_REEL_CONTENT = {
-  eyebrow: "2K25 SHOWREEL",
-  headline: "THE HYPE IS REEL",
+  eyebrow: "2K26 SHOWREEL",
+  headline: "THE FUTURE IS LIVE",
   subline:
-    "Our work is best experienced in motion. Don’t forget to put on your headphones.",
+    "High-octane international streams, elite creator coaching, and idol incubations in motion.",
   videoUrl: "/videos/As8Zelyphu18fIUuYQNJdR5f2o.mp4",
   poster: "/images/UM1vOsnrNMG8r5wJARx2PaBck.avif",
 };
@@ -103,101 +103,101 @@ export const STICKY_REEL_CONTENT = {
 export const PROCESS_STEPS: ProcessStep[] = [
   {
     step: "001",
-    name: "Studio Photography",
-    title: "Studio Photography",
+    name: "Global Live Streams",
+    title: "Global Live Streams",
     description:
-      "Controlled studio sessions focused on form, surfaces and details. Ideal for clean visuals, catalogs and brand-focused content.",
+      "Ultra-low latency, multi-platform simulcasting engineered for Twitch, YouTube, Kick, and international networks with real-time interactive fidelity.",
   },
   {
     step: "002",
-    name: "Location Shooting",
-    title: "Location Shooting",
+    name: "Creator Academy",
+    title: "Creator Academy",
     description:
-      "On-location photography using natural light and environments. Designed to place the subject in a context that enhances its character.",
+      "Intensive masterclasses covering camera charisma, high-retention storytelling, algorithmic strategy, and professional studio production workflows.",
   },
   {
     step: "003",
-    name: "Detail & Design",
-    title: "Detail & Design",
+    name: "Shaping The Idols",
+    title: "Shaping The Idols",
     description:
-      "Close-up imagery highlighting materials, lines and craftsmanship. Perfect for emphasizing design language and premium details.",
+      "Holistic talent shaping: vocal & stage poise, visual identity, media training, and signature aesthetic direction to forge magnetic digital personas.",
   },
   {
     step: "004",
-    name: "Post-Production",
-    title: "Post-Production",
+    name: "Fandom Scaling",
+    title: "Fandom Scaling",
     description:
-      "Image selection, retouching and color consistency. Delivering a clean and cohesive final visual set.",
+      "Cross-border distribution, brand sponsorships, and multi-channel community management that turn live viewership into enduring global fanbases.",
   },
 ];
 
 export const SERVICES: ServiceItem[] = [
   {
-    id: "commercials",
+    id: "international-livestreams",
     number: "01",
-    title: "TV & Online Commercials",
-    subtitle: "Broadcast & Digital Campaigns",
+    title: "International Live Streaming",
+    subtitle: "Twitch, YouTube, Kick & Global CDNs",
     description:
-      "High-impact advertising campaigns designed to grab attention and drive action across broadcast and digital.",
+      "Turnkey broadcast engineering and multi-cam live production connecting creators and esports athletes to international platforms in real-time.",
   },
   {
-    id: "brand-films",
+    id: "creator-academy",
     number: "02",
-    title: "Brand Films",
-    subtitle: "Cinematic Narratives",
+    title: "Content Creation Masterclasses",
+    subtitle: "Storytelling, Production & Growth",
     description:
-      "Deep-dive narratives that communicate your company's ethos, history, and vision with cinematic flair.",
+      "Comprehensive training programs teaching creators high-retention scripting, cinematic shooting, rapid editing workflows, and channel monetization.",
   },
   {
-    id: "music-videos",
+    id: "shaping-idols",
     number: "03",
-    title: "Music Videos",
-    subtitle: "Visual Accompaniment",
+    title: "Idol Incubation & Persona Shaping",
+    subtitle: "Stage Presence, Image & Aesthetics",
     description:
-      "Visually striking accompaniments to audio tracks, tailored to the artist's unique aesthetic.",
+      "End-to-end talent incubation: camera magnetism, vocal choreography, fashion styling, media training, and digital persona development.",
   },
   {
-    id: "documentaries",
+    id: "interactive-stream-tech",
     number: "04",
-    title: "Documentaries",
-    subtitle: "Non-Fiction Storytelling",
+    title: "Interactive Stream Tech & Overlays",
+    subtitle: "Real-Time Visuals & Studio Automation",
     description:
-      "Compelling short-form and feature-length non-fiction storytelling with a premium look.",
+      "Custom stream overlays, dynamic alert widgets, gamified chat integrations, and hardware-accelerated studio automation for top-tier creators.",
   },
   {
-    id: "live-performance",
+    id: "creator-bootcamps",
     number: "05",
-    title: "Live Performance",
-    subtitle: "Multi-Cam Coverage",
+    title: "Creator Bootcamps & Studio Mentorship",
+    subtitle: "Hands-On Studio Training in Bangalore",
     description:
-      "Multi-camera coverage of events, concerts, and exclusive performances captured in high fidelity.",
+      "In-person studio intensives covering professional cinema rigs, acoustics, color grading, and live switching in our Bangalore facility.",
   },
   {
-    id: "social-content",
+    id: "idol-showcase-tours",
     number: "06",
-    title: "Social Content Packs",
-    subtitle: "Vertical & Multi-Ratio Deliverables",
+    title: "Idol Debut Showcases & Global Tours",
+    subtitle: "Live Concerts & Virtual Performances",
     description:
-      "Vertical cuts, teasers, and multi-ratio deliverables optimized specifically for social algorithms.",
+      "High-production live showcases, fan-meeting streams, and hybrid virtual performances launching idols into international fandoms.",
   },
 ];
 
 export const PROJECTS: Project[] = [
   {
     slug: "silent-craft",
-    title: "Silent Craft",
-    category: "Cinematography",
-    year: "2021",
-    client: "Roleex",
-    role: "Cinematography",
-    tagline: "A refined visual examination of precision horology and metallic textures.",
+    title: "Nexus International Stream",
+    category: "Global Live Stream",
+    year: "2026",
+    client: "Twitch / ESL",
+    role: "Broadcast Production",
+    tagline: "Multi-platform high-bitrate live broadcast streaming across international networks.",
     description:
-      "A slow-burn visual exploration highlighting the dedication behind the craft. Shot on location using exclusively natural light and practical fixtures, emphasizing precision textures, materials, and form.",
+      "A high-octane live production simulcasting across Twitch, YouTube, and international platforms. Featuring bespoke dynamic overlays, multi-cam live camera switching, and seamless real-time audience engagement.",
     video: "/videos/XxUhRfuareWJNX7PM6ULwREN3ms.mp4",
     poster: "/images/pbMbyMBRvjkhCG0yBQuKLkbW2OA.avif",
     featured: true,
     duration: "02:15",
-    deliverables: ["4K Cinema Master", "Color Grade", "Macro Stills"],
+    deliverables: ["Multi-Platform Stream", "Dynamic HUD Overlays", "Live Master VOD"],
     gallery: [
       "/images/pbMbyMBRvjkhCG0yBQuKLkbW2OA.avif",
       "/images/O11o3SGA1T3SRr4kAURlQxmhBQ.avif",
@@ -206,19 +206,19 @@ export const PROJECTS: Project[] = [
   },
   {
     slug: "urban-shadow",
-    title: "Urban Shadow",
-    category: "Editor",
-    year: "2023",
-    client: "Nike",
-    role: "Editor",
-    tagline: "Kinetic movement and atmospheric contrast across metropolitan nightscapes.",
+    title: "Creator Blueprint Series",
+    category: "Creator Academy",
+    year: "2026",
+    client: "NextGen Creators Lab",
+    role: "Creator Mentorship",
+    tagline: "Teaching high-impact storytelling, dynamic shooting, and viral content architecture.",
     description:
-      "Capturing raw explosive agility on midnight asphalt. High-speed cinema rigs and neon atmospheric lighting in an empty multi-story garage, cutting to the rhythm of relentless urban motion.",
+      "An intensive masterclass series teaching modern video production, camera presence, dynamic editing, and retention architecture. Over 200 aspiring creators trained in studio lighting, acoustics, and content monetization.",
     video: "/videos/DRL3Xn8OSFOp1VRX0y46WTzfXY.mp4",
     poster: "/images/O11o3SGA1T3SRr4kAURlQxmhBQ.avif",
     featured: true,
     duration: "01:30",
-    deliverables: ["Commercial Master", "Cutdowns (30s / 15s)", "Vertical Reels"],
+    deliverables: ["Workshop Curriculum", "Editing Modules", "Studio Masterclasses"],
     gallery: [
       "/images/O11o3SGA1T3SRr4kAURlQxmhBQ.avif",
       "/images/UM1vOsnrNMG8r5wJARx2PaBck.avif",
@@ -227,19 +227,19 @@ export const PROJECTS: Project[] = [
   },
   {
     slug: "echoes",
-    title: "Echoes",
-    category: "Director of Photography",
-    year: "2024",
-    client: "The Weekend",
-    role: "Director of Photography",
-    tagline: "Neon silhouettes, smoke textures, and surreal melodic progression.",
+    title: "Aura — Idol Debut Showcase",
+    category: "Idol Shaping",
+    year: "2026",
+    client: "Forge Idol Collective",
+    role: "Idol Incubation & Direction",
+    tagline: "Sculpting visual identity, stage poise, and magnetic charisma for a breakthrough digital idol.",
     description:
-      "Moody atmosphere, neon undertones, and evocative visual rhythm. A single-take illusion music video where camera movement was synchronized to the baseline, achieving hypnotic visual fluidity.",
+      "Complete talent incubation and debut showcase for a rising digital idol. Encompassing vocal poise, high-fashion aesthetic direction, camera coaching, and a live broadcast debut watched by fans across 14 countries.",
     video: "/videos/4favH3fVwvyqtWwdqDeb15c8C5c.mp4",
     poster: "/images/azVf3RceAJJ0VpdemBlApwEsbEc.avif",
     featured: true,
     duration: "03:45",
-    deliverables: ["Music Video Master", "Director's Cut", "Behind The Scenes"],
+    deliverables: ["Debut Showcase Broadcast", "Idol Persona Bible", "Live Performance Direction"],
     gallery: [
       "/images/azVf3RceAJJ0VpdemBlApwEsbEc.avif",
       "/images/iMu6XV21ueq7vFpzWyeBtiKqJM.avif",
@@ -248,19 +248,19 @@ export const PROJECTS: Project[] = [
   },
   {
     slug: "midnight-run",
-    title: "Midnight Run",
-    category: "Cinematography",
-    year: "2025",
-    client: "Porsche",
-    role: "Cinematography",
-    tagline: "A high-octane night drive through the neon-lit streets of Tokyo.",
+    title: "Cross-Border Tokyo Live",
+    category: "International Stream",
+    year: "2026",
+    client: "Global Creator Tour",
+    role: "Remote Broadcast Engineer",
+    tagline: "Real-time multi-platform live streaming directly from Tokyo to global digital platforms.",
     description:
-      "A high-octane night drive through the neon-lit streets of Tokyo. We aimed to capture the raw power and sleek design of the new Porsche in its natural nocturnal habitat with sweeping camera movements.",
+      "A continuous multi-hour international live broadcast navigating Tokyo's nightlife with redundant cellular bonding and cloud-switched studio overlays. Delivering pristine 1080p60 fidelity with zero frame drops.",
     video: "/videos/gLSHobDSGN5FaMzTaFr5cNtEL4.mp4",
     poster: "/images/UM1vOsnrNMG8r5wJARx2PaBck.avif",
     featured: true,
     duration: "02:00",
-    deliverables: ["Cinema 4K Film", "Social Campaign Pack", "Stills Collection"],
+    deliverables: ["Cellular Bonded Stream", "Cloud Switching Stack", "Live Highlights"],
     gallery: [
       "/images/UM1vOsnrNMG8r5wJARx2PaBck.avif",
       "/images/pbMbyMBRvjkhCG0yBQuKLkbW2OA.avif",
@@ -269,19 +269,19 @@ export const PROJECTS: Project[] = [
   },
   {
     slug: "neon-pulse",
-    title: "Neon Pulse",
-    category: "Director",
-    year: "2025",
-    client: "Sony Music",
-    role: "Director",
-    tagline: "High-voltage kinetic performance capturing electric movement and sound.",
+    title: "Starforge Idol Performance",
+    category: "Idol Shaping",
+    year: "2026",
+    client: "V-Idol Worldwide",
+    role: "Performance & Persona Coach",
+    tagline: "High-voltage choreography, charisma coaching, and persona styling for international talent.",
     description:
-      "High energy visual production capturing electric motion. Optical studio reflections, saturated color gels, and synchronized performer blocking elevate this music-driven spectacle.",
+      "Comprehensive performance training and image sculpting for a premier digital idol group. From synchronized dance blocking to live chat engagement and media interaction protocols, creating an unforgettable stage presence.",
     video: "/videos/BOC1goZR2pHAjmVZbK1gxxX2Yi0.mp4",
     poster: "/images/iMu6XV21ueq7vFpzWyeBtiKqJM.avif",
     featured: true,
     duration: "03:15",
-    deliverables: ["Music Video Master", "Vertical Teaser Pack", "Key Art"],
+    deliverables: ["Live Stage Performance", "Media Etiquette Training", "Debut Concert Stream"],
     gallery: [
       "/images/iMu6XV21ueq7vFpzWyeBtiKqJM.avif",
       "/images/6ySR7v9DPy8ERkSdr1favg4bCaY.avif",
@@ -290,19 +290,19 @@ export const PROJECTS: Project[] = [
   },
   {
     slug: "the-artisan",
-    title: "The Artisan",
-    category: "Cinematography",
-    year: "2025",
-    client: "Macallan",
-    role: "Cinematography",
-    tagline: "A slow-burn documentary-style piece highlighting the dedication behind the craft.",
+    title: "The Creator's Blueprint",
+    category: "Creator Mentorship",
+    year: "2026",
+    client: "Digital Creators Guild",
+    role: "Masterclass Director",
+    tagline: "An in-depth documentary-style masterclass revealing elite production workflows.",
     description:
-      "A slow-burn documentary-style piece highlighting the dedication behind the craft. Shot on location in Scotland using exclusively natural light and practical fixtures, letting textures and silence tell the story.",
+      "An advanced course for established creators transitioning to professional cinema workflows, lighting design, sound engineering, and multi-platform distribution systems.",
     video: "/videos/HlIHQt6oUlgSpcbkmg21IEEF0.mp4",
     poster: "/images/6ySR7v9DPy8ERkSdr1favg4bCaY.avif",
     featured: true,
     duration: "04:10",
-    deliverables: ["Documentary Master", "Cinematic Trailer", "Photo Essay"],
+    deliverables: ["Masterclass Series", "Production Workflows", "Cinematic VODs"],
     gallery: [
       "/images/6ySR7v9DPy8ERkSdr1favg4bCaY.avif",
       "/images/UM1vOsnrNMG8r5wJARx2PaBck.avif",
@@ -313,29 +313,29 @@ export const PROJECTS: Project[] = [
 
 export const FAQ_ITEMS: FaqItem[] = [
   {
-    question: "What is the typical budget range for a project?",
+    question: "Which international platforms do you live stream to?",
     answer:
-      "Budgets typically vary based on scope, location, and production scale. We provide transparent line-item estimates tailored to project requirements, from indie passion pieces to national commercial campaigns.",
+      "We broadcast simultaneously to major international platforms including Twitch, YouTube Live, Kick, TikTok Live, AfreecaTV, Bilibili, and custom RTMP/SRT destinations worldwide with ultra-low latency and pristine bitrate fidelity.",
   },
   {
-    question: "How long does the process take from brief to final video?",
+    question: "What does your content creation training cover?",
     answer:
-      "Turnaround varies from 2 weeks for fast-turnaround commercial deliverables to 6-8 weeks for complex narrative films requiring extensive post-production, color grading, and sound design.",
+      "Our creator curriculum covers everything from camera mastery, studio lighting, and audio engineering to high-retention scripting, dynamic video editing, algorithmic distribution, and audience monetization.",
   },
   {
-    question: "Do you provide ideas and scripts, or just production execution?",
+    question: "What is involved in 'Shaping the Idols'?",
     answer:
-      "We operate both as a full-service creative partner providing treatments, concepting, and scriptwriting, or as a dedicated production unit executing your pre-existing creative brief.",
+      "Idol shaping is our talent incubation pipeline. We develop rising stars and digital idols from the ground up—covering stage presence, vocal poise, camera charisma, media etiquette, aesthetic styling, and personal brand strategy.",
   },
   {
-    question: "In what format will we receive the final files?",
+    question: "Can creators and brands book your Bangalore studio for live streams?",
     answer:
-      "Master deliverables are provided in uncompressed 4K ProRes 422HQ or 4444, alongside web-ready H.264/H.265 files in 16:9, 9:16 vertical, and custom aspect ratios.",
+      "Yes. Our Bangalore studio is equipped with multi-cam cinema switchers, fiber-optic redundant internet lines, professional acoustics, and broadcast-grade lighting for private or global broadcasts.",
   },
   {
-    question: "Do you collaborate with other agencies as a production partner?",
+    question: "Do you offer one-on-one mentorship for aspiring creators and idols?",
     answer:
-      "Yes, we frequently partner with design studios, advertising agencies, and internal creative teams as a specialized cinematography, directing, and post-production partner.",
+      "Absolutely. We run both structured group cohorts and bespoke 1-on-1 intensive mentorship programs tailored specifically to individual career goals and talent trajectories.",
   },
 ];
 
@@ -367,7 +367,7 @@ export const LEGAL_TERMS = {
       {
         heading: "5. Contact Us",
         content:
-          "If you have questions or concerns about our privacy practices, please contact us at hi@streamforgestudios.com.",
+          "If you have questions or concerns about our privacy practices, please contact us at info@streamforgestudios.com.",
       },
     ],
   },
@@ -398,7 +398,7 @@ export const LEGAL_TERMS = {
       {
         heading: "5. Contact Us",
         content:
-          "For any questions regarding these terms, please contact us at hi@streamforgestudios.com.",
+          "For any questions regarding these terms, please contact us at info@streamforgestudios.com.",
       },
     ],
   },

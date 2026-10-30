@@ -49,8 +49,8 @@ export default function StickyReelSection() {
 
         {/* Bottom Subtext */}
         <div className="z-10 text-center select-none text-zinc-300 font-light text-sm sm:text-base md:text-lg space-y-1">
-          <p>Our work is best experienced in motion.</p>
-          <p>Don’t forget to put on your headphones.</p>
+          <p>Global Live Streams • Creator Academy • Shaping Idols</p>
+          <p>Crafted for international platforms & global fandoms.</p>
         </div>
       </div>
     </section>
